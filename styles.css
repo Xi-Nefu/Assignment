@@ -1,0 +1,33 @@
+#inner_body {
+    position:relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin-top: 400px;
+    margin-left:100px;
+    margin-right:100px;
+    padding: 20px;
+    background-color: #718bf3;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: transform 1s, -webkit-transform 1s, -ms-transform 1s;
+  }
+  
+  .onclick {
+      position: absolute;
+      -ms-transform: translate(-20px, -600px);
+      -webkit-transform: translate(-20px, -600px);
+      transform: translate(-20px, -1000px);
+  }
+
+  #circle {
+    background: black;
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    border-radius: 50%;
+}
